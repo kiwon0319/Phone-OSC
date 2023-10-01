@@ -1,0 +1,61 @@
+QWidget{
+    background-color: #000000;
+}
+
+QPushButton{
+    padding-left: 24;
+    padding-right: 24;
+    padding-top: 5;
+    background-color: #202020;
+    text-align: left;
+}
+
+QPushButton#Rounded{
+    border-radius: 24;
+}
+
+QPushButton#TopRounded{
+    border-top-left-radius: 24;
+    border-top-right-radius: 24;
+}
+
+QPushButton#BottomRounded{
+    border-bottom-left-radius: 24;
+    border-bottom-right-radius: 24;
+}
+
+QPushButton#Primary{
+    background-color: #3e91ff;
+}
+
+QPushButton:hover{
+    background-color: #252525;
+}
+
+QPushButton:pressed{
+    background-color: #303030;
+}
+
+QPushButton#Primary:pressed{
+    background-color: white;
+}
+
+QLabel{
+    color: white;
+    background-color: transparent;
+    align: left;
+}
+
+QLabel#Heading{
+    font: 18px;
+}
+
+QLabel#Sub{
+    color: #4d4d4d;
+    font: 12px;
+}
+
+QLabel#SubAccent{
+    color: #3e91ff;
+    font: 12px;
+}

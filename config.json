@@ -1,0 +1,25 @@
+{
+    "ip": "127.0.0.1",
+    "sport": 9000,
+    "rport": 9001,
+    "VRCPath": {
+        "avatar_parm": "/avatar/parameters/",
+        "chatbox": ""
+    },
+    "parm": {
+        "year": "year",
+        "month": "month",
+        "mday": "mday",
+        "wday": "wday",
+        "hr": "hour",
+        "min": "minute",
+        "sec": "second",
+        "ftime": "float_time",
+        "fmday": "float_mday",
+        "prev": "btn_prev",
+        "play/pause": "btn_pause",
+        "next": "btn_next",
+        "isPlaying": "isPlaying"
+    },
+    "theme": 2
+}
